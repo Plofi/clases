@@ -16,7 +16,7 @@ def calcular_pago(cantidad, precio):
     Post: devuelve el total de la compra.
     """
     assert cantidad > 0, "cantidad debe ser mayor a cero"
-    assert precio > 0, "cantidad debe ser mayor a cero"
+    assert precio > 0, "precio debe ser mayor a cero"
     return cantidad * precio
 
 resultado = dividir(10,0)
